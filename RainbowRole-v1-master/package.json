@@ -1,0 +1,28 @@
+{
+  "name": "rainbowbot",
+  "version": "1.0.0",
+  "description": "Randomly changes peoples discord role color.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
+  "keywords": [
+    "rainbow",
+    "bot",
+    "discord",
+    "role"
+  ],
+  "author": "Ashleigh Carr",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "express": "^4.17.1",
+    "http": "^0.0.0",
+    "randomcolor": "^0.5.4"
+  }
+}
